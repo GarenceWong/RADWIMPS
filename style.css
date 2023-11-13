@@ -5,12 +5,6 @@ box-sizing: border-box;
 font-family: "Segoe UI", Arial, sans-serif;
 }
 
-body {
-    min-height: 100vh;
-    background: url('Radwimps1.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 .header{
     position: fixed;
@@ -45,4 +39,61 @@ body {
 }
 .navbar a:hover::before {
     width: 100%;
+}
+
+.text-box{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    margin: 10px 0 40px;
+    font-size: 43px;
+    color: #fff;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-size:  18px;
+}
+.hero-btn:hover{
+    border: 1px solid #6378a6;
+    background: #6378a6;
+    transition: .3s;
+}
+
+@media(max-width: 700px){
+
+    .navbar a{
+        display: block;
+        font-size:  18px;
+        color: #6e78a6;
+        font-weight: 500;
+        text-decoration: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        position: absolute;
+        background: #e2e2e2;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+
 }
