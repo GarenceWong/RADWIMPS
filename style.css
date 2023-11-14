@@ -94,7 +94,7 @@ font-family: "Segoe UI", Arial, sans-serif;
     float: right;
 
 }
-body {
+.mbody {
     margin: 0; /* Remove default margin to cover the full viewport */
     display: flex;
     flex-wrap: wrap;
