@@ -95,13 +95,13 @@ font-family: "Segoe UI", Arial, sans-serif;
 
 }
 .mbody {
-    margin: 0; /* Remove default margin to cover the full viewport */
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background: linear-gradient(to right, grey, rgb(69, 69, 141));
     background-size: cover;
-    min-height: 100vh; /* Ensure the background covers the full height of the viewport */
+    min-height: 100vh; 
 }
 .musiccontainer{
     display: flex;
@@ -109,6 +109,7 @@ font-family: "Segoe UI", Arial, sans-serif;
     justify-content: center;
     background: linear-gradient(to right, grey, rgb(69, 69, 141));
     background-size: cover;
+    padding-bottom: 10%;
 
 }
 .musiccontainer h1{
@@ -159,6 +160,30 @@ font-family: "Segoe UI", Arial, sans-serif;
     transition: .5s;
     text-align: center;
     white-space: nowrap;
+
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #e2e2e2;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.social-media-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.copyright {
+    color: black;
+    font-size: 14px;
+    padding: 20px;
+    margin-left: 10px;
 
 }
 
